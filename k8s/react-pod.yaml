@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: react-pod
+  labels:
+    component: react
+spec:
+  containers:
+    - name: react
+      image: tata999/samplereact
+      ports: 
+        - containerPort: 80
